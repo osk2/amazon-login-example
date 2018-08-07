@@ -18,7 +18,7 @@ app.get('/login', async (req, res) => {
       url: 'https://api.amazon.com/user/profile',
       headers: { 'Authorization': `bearer ${token}` }
     });
-    res.send(JSON.stringify(dataResponse.data, null, 2));
+    res.json(dataResponse.data);
   } catch (ex) {
     console.error(ex);
     res.sendStatus(500);
