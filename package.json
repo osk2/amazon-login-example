@@ -1,10 +1,10 @@
 {
   "name": "skill-test",
   "version": "1.0.0",
-  "description": "",
+  "description": "Minimal example for Amazon login",
   "main": "index.js",
-  "author": "",
-  "license": "ISC",
+  "author": "osk2",
+  "license": "WTFPL",
   "dependencies": {
     "axios": "^0.18.0",
     "ejs": "^2.6.1",
